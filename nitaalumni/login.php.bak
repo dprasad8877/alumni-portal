@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NITA Alumni portal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Your description">
+<meta name="keywords" content="Your keywords">
+<meta name="author" content="Your name">
+
+
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" media="screen">    
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery.js"></script>  
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+
+<script type="text/javascript" src="js/jquery.ui.totop.js"></script>
+<script>
+$(document).ready(function() {
+	// 
+
+
+}); //
+$(window).load(function() {
+	//
+
+}); //
+</script>		
+</head>
+
+<body class="subpage">
+<div id="main">
+
+<header>
+<div class="top1">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="top1_inner clearfix">
+	<div class="logo_wrapper"><a href="index.php" class="logo">NITA ALUMNI</a></div>
+	<div class="search-form-wrapper clearfix">
+		<form id="search-form" action="#" method="GET" accept-charset="utf-8" class="navbar-form" >
+			<input type="text" name="s" value='Search' onBlur="if(this.value=='') this.value='Search'" onFocus="if(this.value =='Search' ) this.value=''">
+			<a href="#" onClick="document.getElementById('search-form').submit()"></a>
+		</form>	
+	</div>
+	
+</div>	
+</div>	
+</div>	
+</div>
+</div>	
+<div class="top2">
+<div class="menu_wrapper">
+<div class="container">
+<div class="row">
+<div class="span12">
+<div class="navbar navbar_">
+	<div class="navbar-inner navbar-inner_">
+		<a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>		</a>
+		<div class="nav-collapse nav-collapse_ collapse">
+			<ul class="nav sf-menu clearfix">
+				<li  class="active"><a href="index.php">Home</a></li>
+				<li><a href="services.php">About Us</a></li>
+				<li class="sub-menu sub-menu-1"><a href="gallary.php">Gallery<em></em></a>
+					<ul>
+						<li><a href="#l">Golden jubilee</a></li>
+						<li><a href="#">letest images</a></li>
+						<li><a href="#l">Reunion images</a></li>
+						<li><a href="#l">Add new images</a></li>
+					</ul>	
+
+				</li>
+				<li class="sub-menu sub-menu-1"><a href="events.php">Event/News<em></em></a>
+					<ul>
+						<li><a href="#l">Post Event</a></li>
+						<li><a href="#">letest news</a></li>
+						<li><a href="#l">Reunion</a></li>
+						<li><a href="#">Achievements</a></li>						
+					</ul>						
+				</li>				
+				<li class="sub-menu sub-menu-1"><a href="resources.php">Members<em></em></a>
+				<ul>
+						<li><a href="#l">View members</a></li>
+						<li><a href="login.php">login</a></li>
+						<li><a href="register.php">register</a></li>
+						<li><a href="register.php">register for reunion</a></li>						
+					</ul>
+				</li>
+				<li><a href="contact.php">Contact us</a></li>											
+    		</ul>
+		</div>
+	</div>
+</div>	
+</div>	
+</div>	
+</div>	
+</div>
+
+</div>
+</header>	
+
+<div id="content">
+<div class="container">
+<div class="row">
+	<div class="span8">		
+	
+	<table width="400" border="0" cellspacing="0" cellpadding="20" align="center" cols="3">
+		<div class="container" >
+	<section id="content">
+		<form action="logindatabase.php" method="post">
+			<h1>Enter Log In Detail</h1>
+			<div id= "text" align="center"><strong><font size="5" color="green"><u><em>Login Form</em></u></font></strong></div><br>
+			<div align="center">
+				<font size="" color="#006633"><strong><u>user name:</u>  </strong></font><input type="text" placeholder="Username" required="" name="username" id="username" />
+			</div>
+			<div align="center">
+				<font size="" color="#006633"><strong><u>password:</u>   </strong> </font><input type="password" placeholder="Password" name="password" required="" id="password" />
+			</div>
+			<div align="center">
+				<input class="btn btn-success" type="submit" name="submit" value="Log in" /><a href="register.php"><input class="btn btn-success" type="button" name ="login"style="clear:both"value="register" onclick=""></a>
+				<a href="#">Lost your password?</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="register.php">Register</a>
+			</div>
+		</form><!-- form -->
+		<div class="button">
+			
+		</div><!-- button -->
+	</section><!-- content -->
+</div><!-- container -->
+</table>
+
+		<h4>Welcome to the 5,000 plus-strong community of NIT AGARTALA graduates. A community that has earned a reputation for excellence and leadership in the field of engineering. A network that comprises graduates of a variety of programmes. Bond with your batch-mates. Meet your fellow chapter-members. Stay connected with your alma mater. Find everything of interest to NITA alumni here.</h4>
+		<p></p>
+		<h2>Our Team</h2>
+
+		<div class="row">
+			<div class="span4">
+				<div class="thumb3">
+					<div class="thumbnail clearfix">
+						<figure class=""><img src="images/a1.jpg" alt=""></figure>
+						<div class="caption">
+							<div class="txt1">KOLKATTA CHAPTER </div>
+							<div class="txt2">alumni meet in kolkatta.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span4">
+				<div class="thumb3">
+					<div class="thumbnail clearfix">
+						<figure class=""><img src="images/a2.jpg" alt=""></figure>
+						<div class="caption">
+							<div class="txt1">GOLDEN JUBILEE</div>
+							<div class="txt2">golden jubilee year ceelibration.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="span4">
+				<div class="thumb3">
+					<div class="thumbnail clearfix">
+						<figure class=""><img src="images/a3.jpg" alt=""></figure>
+						<div class="caption">
+							<div class="txt1">ALUMNI-KOLKATTA </div>
+							<div class="txt2"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span4">
+				<div class="thumb3">
+					<div class="thumbnail clearfix">
+						<figure class=""><img src="images/a4.jpg" alt=""></figure>
+						<div class="caption">
+							<div class="txt1">ALUMNI MEET</div>
+							<div class="txt2">Meeting with Director.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>	
+	<div class="span4">
+		<h3>Categories</h3>
+		<div class="box1">
+			<div class="inner">
+				<ul class="ul_cat">
+		          <li><a href="#">Album</a></li>
+		          <li><a href="#">Alumni speak</a></li>
+		          <li><a href="#">Donation to NITA</a></li>
+		          <li><a href="#">News and Events</a></li>
+		          <li><a href="#">Reunion</a></li>	 
+		          <li><a href="campus.php">Campus gallary</a></li>  
+		          <li><a href="member.php">Members</a></li>  
+		          <li><a href="contact.php">Contact us </a></li>  
+		          <li><a href="login.php">Log in</a></li> 
+		          <li><a href="register.php">Registr</a></li>                                                                        
+		        </ul>
+			</div>
+			<div class="shadow"></div>
+		</div>
+
+			<div class="shadow"></div>
+		</div>
+	</div>
+</div>	
+</div>
+</div>
+
+<footer>
+<div class="bot1">
+<div class="container">
+<div class="row">
+<div class="span3">
+
+	<div class="block_title">Links</div>
+
+	<ul class="ul0">
+	  <li><a href="http://www.nita.ac.in/">NITA main website</a></li>
+	  <li><a href="index.php">NITA alumni web portal</a></li>
+	  <li><a href="#"></a></li>                                                                              
+	</ul>
+
+</div>	
+<div class="span3">
+
+	<div class="block_title">Recent News</div>
+
+	<ul class="ul0"> <li><a href="#">upcoming reunion</a></li>
+	  <li><a href="#">letest news</a></li>                                                                         
+	</ul>
+
+</div>	
+<div class="span3">
+
+	<div class="block_title">Find us on:</div>
+
+	<ul class="ul_social">
+	  <li><a href="#"><img src="images/fb.jpg" alt="" class="img"><span>Facebook</span></a></li>
+	  <li><a href="#"><img src="images/google+.jpg"  alt="" class="img"><span>google+</span></a></li>
+	</ul>
+
+</div>	
+<div class="span3">
+
+	<div class="block_title">Information</div>
+
+	<p class="txt">
+		<a href="index.php" class="color2">This web portal keeps the information about passout students of NIT agartala</a>
+		
+	</p>
+
+</div>	
+</div>	
+</div>
+</div>	
+
+	
+    <!-- do not delete--><div class="webdesign"><a class="mycode" href="http://www.myfreecsstemplates.com"></a></div><!-- end --></div>
+
+</footer>
+	
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>
